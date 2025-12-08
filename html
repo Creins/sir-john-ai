@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple sir bravin Chatroom</title>
+    <title>Simple Educational Chatroom</title>
     <style>
         body { font-family: Arial, sans-serif; }
         #chat-window {
@@ -36,7 +36,7 @@
                 const chatWindow = document.getElementById('chat-window');
                 const newMessage = document.createElement('div');
                 newMessage.classList.add('message');
-                // Note: The "User" is hardcoded for this educational example.
+                // The "User" is hardcoded for this educational example.
                 newMessage.innerHTML = `<span class="user">Me</span>: ${messageText}`;
                 
                 chatWindow.appendChild(newMessage);
@@ -54,4 +54,5 @@
 
 </body>
 </html>
+
 
